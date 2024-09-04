@@ -153,13 +153,13 @@ nav ul li:hover, nav ul li.active{
     }
     
     .phone{
-        height: 600px;
+        height: 800px;
         width: 375;
     }
 
     nav li{
         position: relative;
-        bottom: 8px;
+        bottom: 5px;
     }
 
     nav ul li p{
