@@ -11,7 +11,10 @@ body{
     justify-content: center;
 
     margin: 0;    
-    background-color: black;
+    background-image: url(./cropped-3840-2160-1371373.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -22,7 +25,7 @@ body{
     height: 700px;
     width: 375px;
     
-    border: solid 3px #eee;
+    border: solid 3px black;
     border-radius: 45px;
 }
 
@@ -45,10 +48,9 @@ body{
 .notification i{
     position: relative;
     right: 25px;
-    flex: 0.07;
+    flex: 0.08;
     color: #fff;
-    font-size: 16px;
-    
+    font-size: 16px;    
 }
 
 #clock{
@@ -72,7 +74,7 @@ body{
     top: 0;
     left: 0;
 
-    transition:  opacity 0.4s ease-in;
+    transition: opacity 0.4s ease-in;
 }
 
 .phone .content.show{
@@ -136,6 +138,8 @@ nav ul li:hover, nav ul li.active{
     position: absolute;
     bottom: 0px;
     left: 0;
+
+    background-color: black;
 }
 
 .navbar i{
@@ -145,7 +149,6 @@ nav ul li:hover, nav ul li.active{
     font-size: 25px;
     text-align: center;
 }
-
 @media screen and (max-width: 1005px){
     body{
         width: 95%;
